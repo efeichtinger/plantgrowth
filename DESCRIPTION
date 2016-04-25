@@ -1,9 +1,9 @@
 Package: plantgrowth
 Type: Package
-Title: Functions for plant growth
+Title: Functional forms of plant growth
 Version: 1.0
 Date: 2016-04-01
-Author: Erin Feichtinger
+Author: Erin E. Feichtinger
 Maintainer: <feic0008@gmail.com>
 Description: Functions for absolute growth rate and relative growth rate
     as a function of time and mass as described by Paine et al. 2012    
