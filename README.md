@@ -11,7 +11,6 @@ functions for estimating absolute growth rate (AGR), relative growth rate (RGR) 
 1. Power law 
 2. Monomolecular 
 3. Three-parameter logistic
-4. Gompertz 
 
 ## References 
 1. C.E.T. Paine, T.B. Marthews, D.R. Vogt, D. Purves, M. Rees, A. Hector, and L.A. Turnbull. 2012. How to fit nonlinear plant growth models
