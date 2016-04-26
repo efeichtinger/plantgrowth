@@ -7,16 +7,27 @@
 PowerlawAGR(r, M, B)
 }
 \arguments{
-\item{r}{a number or numeric vector}
+\item{r}{allometric constant, a number or numeric vector}
 
-\item{M}{biomass a number or numeric vector}
+\item{M}{biomass (kg/g), a number or numeric vector}
 
-\item{B}{a number or numeric vector}
+\item{B}{scaling exponent, a number or numeric vector}
 }
 \value{
-numeric vector of the absolute growth rate following the powerlaw form rM^B
+a number or numeric vector of the absolute growth rate following the power law
 }
 \description{
-\code{PowerlawAGR}  returns the absolute growth rate following a powerlaw/allometric functional form
+\code{PowerlawAGR}  returns the absolute growth rate following a power law/allometric functional form
+}
+\examples{
+agr <- PowerlawAGR(0.25,100,0.4)
+#Change in mass over time
+agr <- 3.62 
+
+}
+\references{
+C.E.T. Paine, T.R. Marthews, D.R. Vogt, D. Purves, M. Rees, A. Hector, and
+L.A. Turnbull. 2012. How to fit nonlinear growth models and calculate growth
+rates: an update for ecologists. Methods in Ecology and Evolution 3:245-256
 }
 
