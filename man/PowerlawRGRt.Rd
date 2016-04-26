@@ -2,23 +2,35 @@
 % Please edit documentation in R/powerRGR.R
 \name{PowerlawRGRt}
 \alias{PowerlawRGRt}
-\title{Relative growth rate as a function of time following the powerlaw/allometric form}
+\title{Relative growth rate as a function of time following the power law/allometric form}
 \usage{
 PowerlawRGRt(r, M, B, t)
 }
 \arguments{
-\item{r}{a number or numeric vector}
+\item{r}{allometric constant, a number or numeric vector}
 
-\item{M}{biomass a number or numeric vector}
+\item{M}{biomass (kg/g), a number or numeric vector}
 
-\item{B}{a number or numeric vector}
+\item{B}{scaling exponent, a number or numeric vector}
 
-\item{t}{time a number or numeric vector}
+\item{t}{time, a number or numeric vector}
 }
 \value{
-The relative growth rate at time t following the powerlaw
+a number or numeric vector, the relative growth rate at time t following the power law
 }
 \description{
-\code{PowerlawRGRt} returns the relative growth rate at any time t for the powerlaw/allometric functional form
+\code{PowerlawRGRt} returns the relative growth rate at time t for the powerlaw/allometric functional form
+}
+\examples{
+#RGR after one time step 
+rgr.t <- PowerlawRGRt(0.25,100,0.4,1)
+rgr.t 
+0.015
+
+}
+\references{
+C.E.T. Paine, T.R. Marthews, D.R. Vogt, D. Purves, M. Rees, A. Hector, and
+L.A. Turnbull. 2012. How to fit nonlinear growth models and calculate growth
+rates: an update for ecologists. Methods in Ecology and Evolution 3:245-256
 }
 

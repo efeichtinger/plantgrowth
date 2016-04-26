@@ -1,13 +1,13 @@
-#' @title Powerlaw function for absolute growth rate (change in mass over time)
+#' @title Powerlaw function for absolute growth rate 
 #' 
 #' @description
-#' \code{PowerlawAGR}  returns the absolute growth rate following a power law/allometric functional form
+#' \code{PowerlawAGR}  returns the absolute growth rate (dM/dt) following a power law/allometric functional form
 #' 
 #' 
 #' @param r allometric constant, a number or numeric vector
 #' @param M biomass (kg/g), a number or numeric vector
 #' @param B scaling exponent, a number or numeric vector
-#' @return a number or numeric vector of the absolute growth rate following the power law 
+#' @return dM/dt, a number or numeric vector of the absolute growth rate following the power law 
 #' 
 #' @examples
 #' #Change in mass over time

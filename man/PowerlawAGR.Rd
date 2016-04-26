@@ -2,7 +2,7 @@
 % Please edit documentation in R/powerlaw.R
 \name{PowerlawAGR}
 \alias{PowerlawAGR}
-\title{Powerlaw function for absolute growth rate (change in mass over time)}
+\title{Powerlaw function for absolute growth rate}
 \usage{
 PowerlawAGR(r, M, B)
 }
@@ -14,15 +14,16 @@ PowerlawAGR(r, M, B)
 \item{B}{scaling exponent, a number or numeric vector}
 }
 \value{
-a number or numeric vector of the absolute growth rate following the power law
+dM/dt, a number or numeric vector of the absolute growth rate following the power law
 }
 \description{
-\code{PowerlawAGR}  returns the absolute growth rate following a power law/allometric functional form
+\code{PowerlawAGR}  returns the absolute growth rate (dM/dt) following a power law/allometric functional form
 }
 \examples{
-agr <- PowerlawAGR(0.25,100,0.4)
 #Change in mass over time
-agr <- 3.62 
+agr <- PowerlawAGR(0.25,100,0.4)
+agr 
+3.62
 
 }
 \references{
