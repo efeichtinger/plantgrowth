@@ -1,14 +1,15 @@
-#' "simdata" is a dataframe containing simulated data for an 
-#'  an individual-based simulation for plant growth
 #' @docType data
+#' @name simdat
+#' @useage data(simdat)
 #' 
-#' @useage(grav)
+#' The data set has the following 
 #'
-#' id is the individual id
-#' size is the starting biomass
-#' size.1 is the size at the next time step for the survivors, based on the power law
-#' surv indicates if the individual lived (1) or died (0) during the time step
-#' covariate is a scaling parameter unique to each individual 
-#' covariateNext is the scaling parameter at the next time step
-#' fec is the number of offspring 
-#' stage and stageNext just indicate that the trait in question (size) is continuous 
+#' \itemize{
+#' \item id is the individual id
+#' \item size is the starting biomass
+#' \item size.1 is the size at the next time step for the survivors, based on the power law
+#' \item surv indicates if the individual lived (1) or died (0) during the time step
+#' \item covariate is a scaling parameter unique to each individual 
+#' \item covariateNext is the scaling parameter at the next time step
+#' \item fec is the number of offspring 
+#' }
